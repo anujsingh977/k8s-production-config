@@ -17,8 +17,8 @@ spec:
         image: company/payment-api:1.0.0
         resources:
           requests:
-            cpu: "500m"
-            memory: "512Mi"
+              cpu: "1000m"
+              memory: "2Gi"
           limits:
-            cpu: "1000m"
-            memory: "1Gi"
+              cpu: "2000m"
+              memory: "4Gi"
